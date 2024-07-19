@@ -1,20 +1,24 @@
 function NavBarTop() {
   return (
     <div className="section1">
-      <div className="row">
-        <div className="col" id="logo">
-          <span className="thed">D</span>
-          <span className="thez">Z</span>
-        </div>
-        <div className="col-6" id="goaround">
-          <a href="">ABOUT</a>
-          <a href="">ARTICLES</a>
-        </div>
-        <div className="col" id="leftside">
-          <button type="button" className="btn btn-outline-dark">
-            SUBSCRIBE
-          </button>
-        </div>
+      <div className="rowtop">
+        <p className="left">
+          <div id="logo">
+            <span className="thed">D</span>
+            <span className="thez">Z</span>
+          </div>
+        </p>
+        <p className="centered">
+          <div id="goaround">
+            <a href="">ABOUT</a>
+            <a href="">ARTICLES</a>
+          </div>
+        </p>
+        <p className="right">
+          <div id="buttontop">
+            <input type="button" className="topbtnsub" value="SUBSCRIBE" />
+          </div>
+        </p>
       </div>
       <div className="middleheading">
         <h1 className="heroheader">DRONOTICZ</h1>

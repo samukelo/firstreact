@@ -1,6 +1,6 @@
-import imagefacebook from "../assets/facebook.png";
-import imagelinkedin from "../assets/linkedin.png";
-import imagepinterest from "../assets/pinterest.png";
+import imagefacebook from "../assets/facebook.svg";
+import imagelinkedin from "../assets/linkedin.svg";
+import imagepinterest from "../assets/pinterest.svg";
 
 function BottomNav() {
   return (

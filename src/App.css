@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@font-face {
+  font-family: "MyAwesomeVariableFont";
+  src: url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+  font-weight: 100 900; /* Range from lightest to boldest */
+}
 * {
   font-family: "Inter";
   padding: 0;
@@ -6,7 +10,10 @@
   list-style: none;
   text-decoration: none;
 }
+
 body {
+  font-family: "Inter", sans-serif;
+
   margin: 0 !important;
 }
 
@@ -17,70 +24,93 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   width: 100%;
-  height: 500px;
+  height: 950px;
 }
-
+.thez {
+  color: #cbdeec;
+}
+.rowtop {
+  padding-top: 10px;
+}
 #logo {
   font-size: 50px;
-  margin-top: 20px;
+  margin-top: 75px;
   margin-left: 10px;
 }
 #goaround {
-  margin-top: 30px;
+  margin-top: 50px;
   text-align: center;
 }
 #goaround a {
-  padding-left: 20px;
+  padding-right: 120px;
   font-size: 24px;
   text-decoration: none;
   color: #000;
 }
-#leftside {
-  font-size: 50px;
-  margin-top: 20px;
+.topbtnsub {
+  height: 40px;
+  width: 200px;
+  background-color: inherit;
 }
 .middleheading {
-  margin-top: 50px;
+  margin-top: 200px;
   margin-bottom: 80px;
   text-align: center;
   font-size: 250px;
 }
 .heroheader {
-  font-size: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 112px;
+  font-weight: 400;
 }
 .subheader {
-  font-size: x-small;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  font-weight: 200;
   text-align: center;
 }
-
 .floatingline {
   margin: auto;
   width: 10%;
-  border: 5px solid black;
+  border: 2px solid black;
 }
 
 .section2 {
+  margin-top: 0 !important;
   background-color: #f8f8f8;
+  height: 900px;
 }
 
 #innerboxsection2 {
   text-align: center;
   margin-left: 20px;
+  padding-top: 200px;
+}
+#sectionheader {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  padding-bottom: 30px;
 }
 .floatingarticleline {
   margin: auto;
   width: 4%;
   border: 1px solid black;
 }
+.card-container {
+  padding-top: 65px;
+}
 .column {
   float: left;
-  width: 20%;
-  padding: 0 10px;
+  width: 270px;
+  padding: 0 30px;
 }
 
 .row {
   margin: 0 -5px;
-  margin-left: 130px;
+  margin-left: 150px;
 }
 
 .row:after {
@@ -89,18 +119,20 @@ body {
   clear: both;
 }
 .card {
+  flex: 1;
+  height: 350px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
   background-color: #f1f1f1;
 }
 .card img {
-  height: 350px;
+  height: 200px;
   width: 100%;
   object-fit: cover;
 }
 .card .cardbody {
-  padding: 80px;
-  background-color: aqua;
+  padding: 50px;
+  background-color: inherit;
 }
 .floatingcardline {
   margin: auto;
@@ -119,20 +151,24 @@ body {
 }
 .left-column {
   background-image: url("assets/drone8.png");
-  height: 550px;
-  width: 50%;
+  height: 650px;
+  width: 40%;
   background-size: cover;
   background-position: center;
   color: white;
   text-align: center;
 }
 .right-column {
-  width: 50%;
-  background-color: #f2f2f2;
+  width: 60%;
+  background-color: white;
   padding: 100px 0px 75px 0px;
 }
 .aboutushearder {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
   text-align: center;
+  padding-bottom: 20px;
 }
 .floatingaboutline {
   margin: auto;
@@ -140,18 +176,28 @@ body {
   border: 1px solid black;
 }
 .aboutusparagraph {
-  padding-top: 50px;
-  margin: 0px 190px 0px 190px;
+  display: flex;
+  align-items: center;
+  padding-top: 70px;
+  width: 70%;
+  margin: auto;
 }
 /* Section 4 */
 .section4 {
   background-color: #f8f8f8;
+  height: 300px;
 }
 .subscribehearder {
-  padding: 22px 0px;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  padding: 12px 0px;
   text-align: center;
 }
 .subscribesubhearder {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -168,14 +214,15 @@ body {
   text-align: left;
 }
 form .form-email {
-  height: 40px;
+  height: 60px;
+  border-color: #fff;
   width: 600px;
 }
 
 form .btnsub {
   height: 40px;
   width: 200px;
-  margin-top: 5px;
+  margin-top: 25px;
   background-color: #f8f8f8;
 }
 /* Last Section */
@@ -197,7 +244,6 @@ form .btnsub {
 .icon {
   text-decoration: none;
   font-size: 24px;
-  background-color: red;
 }
 
 .icon:hover {
@@ -216,6 +262,7 @@ form .btnsub {
 .bottomlinks {
   display: flex;
   justify-content: center;
+  padding-top: 20px;
   padding-left: 20px;
   gap: 40px;
 }

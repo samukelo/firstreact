@@ -7,7 +7,7 @@ function ArticleSection() {
   return (
     <div className="section2">
       <div id="innerboxsection2">
-        LATEST ARTICLES
+        <div id="sectionheader">LATEST ARTICLES</div>
         <div className="floatingarticleline"></div>
       </div>
       <div className="card-container">
