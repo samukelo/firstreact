@@ -18,7 +18,7 @@ function ArticleSection() {
                 <img src={image1} alt="" />
               </div>
               <div className="cardbody">
-                <div className="floatingcardline"></div>
+                <div className="floatingcardline"></div><br />
                 How to automate surveillance drones
               </div>
             </div>
@@ -29,7 +29,7 @@ function ArticleSection() {
                 <img src={image2} alt="" />
               </div>
               <div className="cardbody">
-                <div className="floatingcardline"></div>
+                <div className="floatingcardline"></div><br />
                 Robotics and Artificial Intelligence
               </div>
             </div>
@@ -40,7 +40,7 @@ function ArticleSection() {
                 <img src={image3} alt="" />
               </div>
               <div className="cardbody">
-                <div className="floatingcardline"></div>
+                <div className="floatingcardline"></div><br />
                 Improving Lives through Robotic Prosthetics
               </div>
             </div>
@@ -51,7 +51,7 @@ function ArticleSection() {
                 <img src={image4} alt="" />
               </div>
               <div className="cardbody">
-                <div className="floatingcardline"></div>
+                <div className="floatingcardline"></div><br />
                 Power of Robotics in Agriculture
               </div>
             </div>

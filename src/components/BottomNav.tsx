@@ -35,7 +35,11 @@ function BottomNav() {
           <div className="bottomlinks">
             <a href="">ABOUT US</a>
             <a href="">ARTICLES</a>
-            <a href="">SUBSCRIBE</a>
+            <a href="">
+              <div id="buttontop">
+                <input type="button" className="topbtnsub" value="SUBSCRIBE" />
+              </div>
+            </a>
           </div>
         </p>
         <p className="centered"></p>
