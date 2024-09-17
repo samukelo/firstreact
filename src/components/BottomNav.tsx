@@ -36,7 +36,7 @@ function BottomNav() {
             <a href="">ABOUT US</a>
             <a href="">ARTICLES</a>
             <a href="">
-              <div id="buttontop">
+              <div id="buttonbottom">
                 <input type="button" className="topbtnsub" value="SUBSCRIBE" />
               </div>
             </a>

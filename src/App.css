@@ -146,7 +146,7 @@ body {
   border: 1px solid black;
 }
 .card-container {
-  padding-top: 65px;
+  padding-top: 60px;
 }
 .column {
   float: left;
@@ -166,7 +166,7 @@ body {
 }
 .card {
   flex: 1;
-  height: 250px;
+  height: 350px;
   box-shadow: rgba(0.15, 0.15, 0.15, 0.15) 2.6px 2.6px 2.6px;
   text-align: center;
   background-color: white;
@@ -242,7 +242,7 @@ body {
 }
 .subscribesubhearder {
   font-family: "Inter", sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 400;
   text-align: center;
 }
@@ -261,8 +261,13 @@ body {
 }
 form .form-email {
   height: 60px;
-  border-color: #fff;
+  border: none;
   width: 600px;
+}
+
+form .form-email::placeholder {
+  padding-left:30px;
+  color: #808080;
 }
 
 form .btnsub {
@@ -308,7 +313,7 @@ form .btnsub {
 .bottomlinks {
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-left: 20px;
   gap: 40px;
 }
